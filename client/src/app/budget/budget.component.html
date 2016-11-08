@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="columns medium-6 large-4 small-centered">
+    <h2 class="text-center">Your initial budget: {{initialBudget}}</h2>
+    <ul *ngFor="let todo of actualTodos">
+      <div [attr.data-toggle]="todo.id">
+        <div class="callout" [attr.id]="todo.id" data-toggler data-animate="hinge-in-from-top spin-out">
+          <p>
+            {{todo.activity}} - Your spend: <span>{{todo.cost}}</span>
+          </p>
+        </div>
+      </div>
+    </ul>
+    <h2 class="text-center">Your actual budget: {{actualBudget}}</h2>
+  </div>
+</div>

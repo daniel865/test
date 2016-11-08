@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="columns medium-6 large-4 small-centered">
+    <h1 class="text-center">Your Todos</h1>
+    <ul *ngFor="let todo of actualTodos">
+      <div [attr.data-toggle]="todo.id">
+        <div class="callout" [attr.id]="todo.id" data-toggler data-animate="hinge-in-from-top spin-out">
+          <p>
+            {{todo.activity}} - <span>{{todo.timestamp * 1000 | amTimeAgo}}</span>
+          </p>
+        </div>
+      </div>
+
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "435250a9-5a51-4c2a-aac1-784c89ee7c62",
+        "activity": "buy milk",
+        "cost": "5",
+        "timestamp": 1478445092
+    },
+    {
+        "id": "8a381572-0f06-c070-c59a-e1d5e6e7f68d",
+        "activity": "Buy Tv",
+        "cost": "150",
+        "timestamp": 1478460324
+    },
+    {
+        "id": "f98eca14-26d4-c4ce-22fc-0e2fd8e141c5",
+        "activity": "Do the homework",
+        "cost": 0,
+        "timestamp": 1478460442
+    },
+    {
+        "id": "83339a87-858c-37c6-c3bb-c02dd7a6a846",
+        "activity": "Do something",
+        "cost": 0,
+        "timestamp": 1478461140
+    },
+    {
+        "id": "f213eeed-8aea-50cd-cbca-83d21063d822",
+        "activity": "Surf in the Internet",
+        "cost": 0,
+        "timestamp": 1478472702
+    },
+    {
+        "id": "7129e77b-a4c6-bfe8-3307-18f907da1126",
+        "activity": "Pay spotify",
+        "cost": "20",
+        "timestamp": 1478545996
+    }
+]

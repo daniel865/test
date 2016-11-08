@@ -1,0 +1,8 @@
+<div class="columns medium-6 large-4 small-centered">
+  <h1 class="text-center">Todo Tracker</h1>
+  <form  (ngSubmit)="onSubmit()" >
+    <input type="text" id="activity" name="activity" [(ngModel)]="model.activity" placeholder="Enter what do you need to do" />
+    <input type="text" id="cost" name="cost" [(ngModel)]="model.cost" placeholder="Enter how much do you want spend" />
+    <button class="button expanded" type="submit">Add Todo</button>
+  </form>
+</div>
